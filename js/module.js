@@ -1,10 +1,11 @@
 //@ts-check
+//끝
+// import Animal from './animals.js';
 
-import Animal from './animals.js';
-
-const ani = new Animal();
-console.log(ani);
-ani.showAnimals();
+// const ani = new Animal();
+// console.log(ani);
+// ani.showAnimals();
+//끝
 
 // const { animals, showAnimals } = require('./animals');
 
