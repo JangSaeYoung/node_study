@@ -3,6 +3,6 @@ module.exports = {
   rules: {
     'no-console': 'off',
   },
-  // lintOfsave: false,
+  lintOfsave: false,
   // 'prefer-destructuring': 'off', //구조분해 할당 끄기
 };

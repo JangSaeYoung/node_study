@@ -1,8 +1,9 @@
 {
+  "type": "module",
   "scripts": {
     "server": "nodemon js/main.js",
     "dev": "nodemon --watch \"./js/*.js\" --exec \"npm run server\"",
-    "study": "nodemon js/start.js"
+    "study": "nodemon js/module.js"
   },
   "devDependencies": {
     "@types/node": "^18.7.12",
