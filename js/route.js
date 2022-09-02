@@ -36,12 +36,16 @@ const routes = [
     callback: async () => ({
       statusCode: 200,
       body: {
-        posts: posts.map((post) => ({
-          id: post.id,
-          title: post.title,
-        })),
+        posts: posts,
         totalCount: posts.length,
       },
+      // body: {
+      //   posts: posts.map((post) => ({
+      //     id: post.id,
+      //     title: post.title,
+      //   })),
+      //   totalCount: posts.length,
+      // },
     }),
   },
 
